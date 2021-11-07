@@ -9,3 +9,17 @@ StereoQA-Net: https://github.com/weizhou-geek/Stereoscopic-Image-Quality-Assessm
 
 # MultiEPL Approach
 In this work, instead of using a single row as an epipolar plane or line, we process all rows of the grid. We name this approach MultiEPL. Generally, as shown in Figure (a) below, we fix t=359 and process all SAI rows. This way, we extract EPIs of size 10x960, as illustrated in Figure (b). But using the MultiEPL approach, we obtain one EPI of resolution 100x960 for each LFI.
+![](images/singleEPL_and_multiEPL.png)
+
+## Code:
+To develop MultiEPL approach, we modified the base code: https://github.com/andrewhou1/Light-Field-Super-Resolution/blob/master/generateEPI.py
+
+Steps to run multiEPL_EPIs.py file:
+- Change input and output paths accordingly.
+- Run the file multiEPL_EPIs.py
+
+Requirements:
+- Python 3.8
+- Numpy
+- Imageio
+- OpenCV
