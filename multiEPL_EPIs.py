@@ -35,7 +35,8 @@ def loadlf(folder):
 	return (LF_r, LF_g, LF_b)
 
 def lf2epi(LF):
-	return np.transpose(LF, (0, 2, 1))
+	#return np.transpose(LF, (0, 1, 2)) # for vertical EPI
+	return np.transpose(LF, (0, 2, 1)) # for horizontal EPI
 
 def main():
 	path2DB = 'path_to_SAIs/'
