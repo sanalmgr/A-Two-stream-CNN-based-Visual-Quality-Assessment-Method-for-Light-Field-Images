@@ -30,3 +30,12 @@ Requirements:
 - Numpy
 - Imageio
 - OpenCV
+
+##Reference this work:
+@ARTICLE {lfiqaMultiEPL2022,
+    author  = "Sana Alamgeer, Mylène C.Q. Farias",
+    title   = "A two-stream cnn based visual quality assessment method for light field images",
+    journal = "Multimedia Tools and Applications",
+    year    = "2022",
+    month   = "jul"
+}
