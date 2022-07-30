@@ -13,7 +13,7 @@ In this work, instead of using a single row as an epipolar plane or line, we pro
 ![](images/singleEPL_and_multiEPL.png)
 
 ## Code multiEPL_EPIs.py:
-To develop MultiEPL approach (multiEPL_EPIs.py), we modified the [base code](https://github.com/andrewhou1/Light-Field-Super-Resolution/blob/master/generateEPI.py)
+To develop MultiEPL approach (multiEPL_EPIs.py), we modified the [base code](https://github.com/andrewhou1/Light-Field-Super-Resolution/blob/master/generateEPI.py).
 
 Steps to run multiEPL_EPIs.py file:
 - Change input and output paths accordingly.
