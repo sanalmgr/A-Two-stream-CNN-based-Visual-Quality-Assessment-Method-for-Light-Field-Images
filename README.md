@@ -19,7 +19,7 @@ Steps to run multiEPL_EPIs.py file:
 - Run the file multiEPL_EPIs.py
 
 ## Generation of MLI:
-I am grateful to https://github.com/Chawin-S to achieve this task.
+I am grateful to https://github.com/Chawin-S for achieving this task.
 The code to generate MLI is given in direcorty Prep:
 1. Setup the paths to input in run.m file. 
 2. Run run.m to generate MLIs. 
