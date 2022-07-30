@@ -19,18 +19,21 @@ Steps to run multiEPL_EPIs.py file:
 - Change input and output paths accordingly.
 - Run the file multiEPL_EPIs.py
 
-## Generation of MLI:
-I am grateful to [Chawin-S](https://github.com/Chawin-S) for achieving this task.
-The code to generate MLI is given in direcorty Prep:
-1. Setup the paths to input in run.m file. 
-2. Run run.m to generate MLIs. 
-
 ## Requirements:
 - Python 3.8
 - Numpy
 - Imageio
 - OpenCV
-- MATLAB
+- [Canny Edge Map](https://www.peterkovesi.com/matlabfns/index.html#spatial)
 
 ### Cite this article:
+```
+@ARTICLE {lfiqaMultiEPL2022,
+    author  = "Sana Alamgeer, Mylène C.Q. Farias",
+    title   = "A two-stream cnn based visual quality assessment method for light field images",
+    journal = "Multimedia Tools and Applications",
+    year    = "2022",
+    month   = "jul"
+}
+```
 Alamgeer, S., Farias, M.C. A two-stream cnn based visual quality assessment method for light field images. Multimed Tools Appl (2022). https://doi.org/10.1007/s11042-022-13436-4
