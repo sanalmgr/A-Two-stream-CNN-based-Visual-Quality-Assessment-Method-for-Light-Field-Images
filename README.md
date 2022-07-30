@@ -25,7 +25,7 @@ The code to generate MLI is given in direcorty Prep:
 1. Setup the paths to input in run.m file. 
 2. Run run.m to generate MLIs. 
 
-Requirements:
+## Requirements:
 - Python 3.8
 - Numpy
 - Imageio
