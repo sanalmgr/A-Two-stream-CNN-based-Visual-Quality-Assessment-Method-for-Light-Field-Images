@@ -25,6 +25,7 @@ The code to generate MLI is given in direcorty Prep:
 2. Run run.m to generate MLIs. 
 
 Requirements:
+- MATLAB
 - Python 3.8
 - Numpy
 - Imageio
