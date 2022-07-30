@@ -26,11 +26,11 @@ The code to generate MLI is given in direcorty Prep:
 2. Run run.m to generate MLIs. 
 
 Requirements:
-- MATLAB
 - Python 3.8
 - Numpy
 - Imageio
 - OpenCV
+- MATLAB
 
 ### Cite this article:
 Alamgeer, S., Farias, M.C. A two-stream cnn based visual quality assessment method for light field images. Multimed Tools Appl (2022). https://doi.org/10.1007/s11042-022-13436-4
